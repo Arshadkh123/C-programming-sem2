@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h> //it is a inbuilt maths function
+int main()
+{
+double res;
+int i;
+for(i=0;i<30;i++)
+{
+ res=i/10.0;
+ printf("sin(%lf =%lf\t\n",res,fabs(sin(res))))
+}
+printf("\n++++\n");
+return 0;
+}
